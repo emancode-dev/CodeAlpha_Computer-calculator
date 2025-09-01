@@ -1,0 +1,65 @@
+body{
+  
+    font-family: "Arial Rounded MT Bold", "Arial Rounded MT", Arial, sans-serif;
+    font-size:13px ;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background: linear-gradient(90deg,black,grey);
+}
+.cal2{
+    background: linear-gradient(40deg,darkslateblue,deepskyblue);
+    border-radius: 20px;
+    display: inline-block;
+    padding: 18px;
+    height: 520px;
+
+}
+.cal{
+    background: linear-gradient(90deg,black,darkblue);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 15px ;
+}
+input{
+border: 20px solid transparent;
+    width: 300px;
+    text-align: right;
+    height:70px;
+    font-size: 35px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+}
+button{
+     
+    background: linear-gradient(40deg,darkslateblue,deepskyblue);
+    border: 2px solid linear-gradient(45deg,darkslateblue,deepskyblue);
+    gap: 5px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size:15px ;
+    width: 90px;
+    height: 60px;
+    font-family: "Arial Rounded MT Bold", "Arial Rounded MT", Arial, sans-serif;
+    font-size:20px ;
+}
+button:hover{
+    border: 2px solid #FFFFF0;
+    color: white;
+     transform: scale(1.11);
+}
+.btn{
+    padding: 5px;
+}
+#btn1{
+    color: darkblue;
+    font-family: Arial Black
+}
+#btn1:hover{
+    border: 2px solid #FFFFF0;
+    color: white;
+     transform: scale(1.11);
+}
